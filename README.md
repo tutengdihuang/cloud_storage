@@ -190,3 +190,4 @@ size, err := storage.Size("test/test.txt")
 2. [腾讯云对象存储](https://cloud.tencent.com/document/product/436)
 5. [aws s3](https://docs.aws.amazon.com/sdk-for-go/api/service/s3/)
 
+# cloud_storage
