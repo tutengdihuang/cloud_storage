@@ -44,7 +44,7 @@
 	cfg.Region = endpoints.ApEast1RegionID
 	cfg.Endpoint = "http://s3.ap-east-1.amazonaws.com"
 	cfg.Bucket = "ecasebucket"
-    cfg.Driver = drivers.S3
+        cfg.Driver = drivers.S3
 ```
 ## 💡 基本用法-案例
 
@@ -71,7 +71,7 @@
 		t.Fatal(err)
 	}
 
-    err:=storeInstance.Put(key, f)
+        err:=storeInstance.Put(key, f)
 	if err!=nil{
 		panic(err)
 	}
@@ -170,7 +170,6 @@ exists, err := storage.Exists("test/test.txt")
 
 根据前缀获取文件列表。
 
-> minio 最多返回 1000 个，其他的有多少返回多少。
 
 ```go
 exists, err := storage.Files("test/")
