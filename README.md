@@ -21,7 +21,7 @@
 	cfg.Endpoint = "https://oss-cn-shanghai.aliyuncs.com"
 	cfg.Bucket = "top-demo-sh"
 	cfg.Region = "top-demo-sh"
-    cfg.Driver = drivers.Aliyun
+        cfg.Driver = drivers.Aliyun
 ```
 ### 腾讯云
 ```golang
